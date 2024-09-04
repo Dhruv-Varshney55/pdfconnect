@@ -1,7 +1,7 @@
 <h1 align="center">Welcome to PDFConnect 👋</h1>
 <p>
-  <a href="https://twitter.com/Srajanstwt" target="_blank">
-    <img alt="Twitter: Srajanstwt" src="https://img.shields.io/twitter/follow/Srajanstwt.svg?style=social" />
+  <a href="https://x.com/dhruv_x_space" target="_blank">
+    <img alt="Twitter: Dhruv_x_Space" src="https://img.shields.io/twitter/follow/Dhruv_x_Space.svg?style=social" />
   </a>
 </p>
 
@@ -108,11 +108,11 @@ Just run the following command at the root of your project and answer questions:
 
 ## Author
 
-👤 **Srajan Bansal**
+👤 **Dhruv Varshney**
 
-* Twitter: [@Srajanstwt](https://twitter.com/Srajanstwt)
-* Github: [@Srajan-Bansal](https://github.com/Srajan-Bansal)
-* LinkedIn: [@srajan-bansal](https://linkedin.com/in/srajan-bansal)
+* Twitter: https://x.com/dhruv_x_space
+* Github: https://github.com/Dhruv-Varshney55
+* LinkedIn: https://www.linkedin.com/in/dhruv-varshney-b09007244/
 
 ## Show your support
 
