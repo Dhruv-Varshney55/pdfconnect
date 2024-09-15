@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+    client:
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        image: srajanbansal/pdfconnect-client:latest
+        ports:
+            - '5173:5173'
+        env_file:
+            - ./client/.env
+        depends_on:
+            - server
+
+    server:
+        build:
+            context: ./server
+            dockerfile: Dockerfile
+        image: srajanbansal/pdfconnect-server:latest
+        ports:
+            - '8000:8000'
+        env_file:
+            - ./server/config.env
+        environment:
+            - ENVIROMENT=docker-run
+        depends_on:
+            - mongo
+
+    mongo:
+        image: mongo:latest
+        ports:
+            - '27017:27017'
+        volumes:
+            - mongo-data:/data/db
+
+    prometheus:
+        image: prom/prometheus:latest
+        volumes:
+            - ./prometheus.yml:/etc/prometheus/prometheus.yml
+        ports:
+            - '9090:9090'
+
+    grafana:
+        image: grafana/grafana:latest
+        ports:
+            - '3000:3000'
+
+volumes:
+    mongo-data:
