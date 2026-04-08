@@ -36,7 +36,7 @@ Just run the following command at the root of your project and answer questions:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Srajan-Bansal/PDFConnect.git
+   git clone https://github.com/Dhruv-Varshney55/PDFConnect.git
 
 2. Navigate to the client directory and install dependencies:
     cd client
@@ -105,9 +105,8 @@ Just run the following command at the root of your project and answer questions:
 
 👤 **Srajan Bansal**
 
-* Twitter: [@Srajanstwt](https://twitter.com/Srajanstwt)
-* Github: [@Srajan-Bansal](https://github.com/Srajan-Bansal)
-* LinkedIn: [@srajan-bansal](https://linkedin.com/in/srajan-bansal)
+* Github: [@Dhruv-Varshney55](https://github.com/Dhruv-Varshney55)
+* LinkedIn: [@dhruv-varshney](https://linkedin.com/in/dhruv-varshney)
 
 ## Show your support
 
