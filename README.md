@@ -1,9 +1,4 @@
 <h1 align="center">Welcome to PDFConnect 👋</h1>
-<p>
-  <a href="https://twitter.com/Srajanstwt" target="_blank">
-    <img alt="Twitter: Srajanstwt" src="https://img.shields.io/twitter/follow/Srajanstwt.svg?style=social" />
-  </a>
-</p>
 
 PDFConnect is a robust and feature-rich web application designed for real-time collaborative writing and PDF editing. Built using the MERN stack (MongoDB, Express, React, Node.js), it offers a comprehensive set of tools to allow users to work together seamlessly on text documents and PDFs. Key features include real-time chat, AI-powered question answering, PDF extraction and editing, and system monitoring using Prometheus and Grafana.
 
